@@ -238,7 +238,7 @@ export default function Portfolio() {
       <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(60%_40%_at_50%_0%,rgba(108,212,255,0.18),transparent_70%),radial-gradient(40%_30%_at_90%_20%,rgba(74,222,128,0.12),transparent_65%)]" />
 
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/5 bg-[#0b0d10]/80 backdrop-blur-md">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <nav className="mx-auto flex max-w-6xl flex-col items-start gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
           <button
             type="button"
             onClick={() => scrollToId("home")}
@@ -246,13 +246,13 @@ export default function Portfolio() {
           >
             Saksham Khare
           </button>
-          <div className="flex max-w-[60vw] items-center gap-4 overflow-x-auto text-xs text-slate-300 md:max-w-none md:gap-6 md:text-sm">
+          <div className="flex w-full items-center gap-4 overflow-x-auto text-xs text-slate-300 sm:w-auto sm:max-w-none sm:gap-6 sm:text-sm">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 type="button"
                 onClick={() => scrollToId(item.id)}
-                className="transition hover:text-white"
+                className="whitespace-nowrap transition hover:text-white"
               >
                 {item.label}
               </button>
