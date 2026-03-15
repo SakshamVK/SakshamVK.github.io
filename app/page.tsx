@@ -69,12 +69,6 @@ const projects = [
     stack: ["Ethereum", "Hardhat", "MetaMask"],
   },
   {
-    name: "Property Marketplace",
-    description:
-      "Search and listing product for property discovery, built for speed and clarity.",
-    stack: ["Next.js", "Firebase"],
-  },
-  {
     name: "Smart Coach",
     description:
       "Major product initiative that blends personalized coaching, analytics, and structured training plans.",
@@ -91,19 +85,19 @@ const projects = [
 
 const workItems = [
   {
-    title: "Independent Freelancing",
+    title: "Freelance Projects",
     detail:
-      "Shipping web and mobile products for clients with a focus on clarity, reliability, and fast iteration.",
+      "Built small websites and applications for clients.",
   },
   {
-    title: "Startup-style Builds",
+    title: "Personal Projects",
     detail:
-      "Rapid product cycles, MVP delivery, and pragmatic engineering choices under tight timelines.",
+      "Experimenting with new technologies and building ideas from scratch.",
   },
   {
-    title: "System-level Projects",
+    title: "Academic Projects",
     detail:
-      "Academic and production-grade systems involving data pipelines, automation, and orchestration.",
+      "University projects involving AI, IoT, and web development.",
   },
 ];
 
@@ -276,16 +270,15 @@ export default function Portfolio() {
                 Independent Developer
               </p>
               <h1 className="js-hero-line font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
-                Saksham Khare — building products that ship, scale, and solve real
-                problems.
+                Saksham Khare - Developer building web and mobile applications.
               </h1>
               <p className="js-hero-line text-base text-slate-300 sm:text-lg">
-                Independent Developer · Product Builder · Problem Solver
+                Full-stack developer working with modern web and mobile technologies.
               </p>
               <p className="js-hero-line max-w-xl text-sm text-slate-400 sm:text-base">
-                I work across client products, startup experiments, and self-driven
-                projects. The focus is always execution: ideate, build, iterate,
-                and deliver.
+                I build web and mobile applications using modern frameworks.
+Most of my work involves building projects, experimenting with
+ideas, and occasionally working with clients.
               </p>
               <div className="js-hero-line flex flex-wrap gap-4">
                 <button
@@ -307,8 +300,7 @@ export default function Portfolio() {
             <div className="rounded-3xl border border-white/10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_55%)] p-8">
               <div className="space-y-6 text-sm text-slate-300">
                 <p>
-                  Builder-first mindset. I care about stability, scale, and the
-                  real-world constraints that make products succeed.
+                  I enjoy building practical software and improving it over time.
                 </p>
                 <div className="grid gap-4">
                   <div className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
@@ -316,7 +308,7 @@ export default function Portfolio() {
                       Focus
                     </p>
                     <p className="mt-2 font-display text-lg text-white">
-                      Execution, iteration, shipping
+                      Building useful products
                     </p>
                   </div>
                   <div className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
@@ -324,7 +316,7 @@ export default function Portfolio() {
                       Available for
                     </p>
                     <p className="mt-2 font-display text-lg text-white">
-                      Product builds · MVPs · Systems
+                      Web apps · Mobile apps · Prototypes
                     </p>
                   </div>
                 </div>
@@ -337,24 +329,22 @@ export default function Portfolio() {
           <div className="grid gap-12 lg:grid-cols-[1fr_0.9fr]">
             <div className="space-y-6">
               <h2 className="font-display text-3xl text-white sm:text-4xl">
-                Builder mindset, product-first thinking.
+                About
               </h2>
               <p className="text-sm text-slate-300 sm:text-base">
-                I operate as an independent developer who enjoys the full lifecycle
-                of building. That means talking to users, mapping systems, shipping
-                fast, and improving what matters most.
+                I am a computer science student who enjoys building software
+projects. I like working on ideas from scratch and learning
+new technologies while doing it.
               </p>
               <p className="text-sm text-slate-300 sm:text-base">
-                I am comfortable toggling between client delivery, startup momentum,
-                and self-initiated business ideas. The goal stays the same: build
-                things that work, scale, and feel thoughtful.
+                Most of my experience comes from personal projects, hackathons,
+and small freelance work.
               </p>
               <p className="text-sm text-slate-400 sm:text-base">
-                I avoid buzzwords. If the experience is clean and the product solves
-                a real problem, the work speaks for itself.
+                I prefer simple solutions and clean implementation.
               </p>
-            </div>
-            <div className="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-8">
+             </div>
+            {/* <div className="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-8">
               <div className="space-y-3">
                 <p className="text-xs uppercase tracking-[0.3em] text-slate-400">
                   Core principles
@@ -373,7 +363,7 @@ export default function Portfolio() {
                   Confident, calm, intentional. Less noise, more clarity.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -384,7 +374,7 @@ export default function Portfolio() {
                 Tech Stack
               </p>
               <h2 className="font-display text-3xl text-white sm:text-4xl">
-                Tools I use to build reliable products.
+                Technologies I work with
               </h2>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -413,11 +403,8 @@ export default function Portfolio() {
         <section id="projects" className="js-section mx-auto max-w-6xl px-6 py-20">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-3">
-              <p className="text-xs uppercase tracking-[0.35em] text-slate-400">
-                Projects
-              </p>
               <h2 className="font-display text-3xl text-white sm:text-4xl">
-                Product-focused builds with real-world intent.
+                Projects
               </h2>
             </div>
             <div className="grid gap-6 lg:grid-cols-3">
@@ -454,14 +441,14 @@ export default function Portfolio() {
                     </div>
                   </div>
                   <div className="mt-6 flex flex-wrap gap-3 text-xs uppercase tracking-[0.2em] text-slate-300 lg:mt-0">
-                    <a
+                    {/* <a
                       href="https://github.com/SakshamVK"
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-full border border-white/15 px-4 py-2 transition hover:border-white/40"
                     >
                       GitHub
-                    </a>
+                    </a> */}
                   </div>
                 </article>
               ))}
@@ -472,15 +459,12 @@ export default function Portfolio() {
         <section id="work" className="js-section mx-auto max-w-6xl px-6 py-20">
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="space-y-4">
-              <p className="text-xs uppercase tracking-[0.35em] text-slate-400">
-                Work / Experience
-              </p>
               <h2 className="font-display text-3xl text-white sm:text-4xl">
-                Shipping across freelance and startup environments.
+                Work
               </h2>
               <p className="text-sm text-slate-300">
-                I bring a builder's rhythm to every engagement: define the goal,
-                deliver the core, then refine with feedback.
+                Most of my experience comes from building projects and doing
+small freelance work.
               </p>
             </div>
             <div className="grid gap-4">
@@ -507,8 +491,7 @@ export default function Portfolio() {
                 Let us build the next product together.
               </h2>
               <p className="text-sm text-slate-300">
-                Prefer concise collaboration and thoughtful execution. Reach out
-                with your product idea or timeline.
+                If you want to discuss a project or collaboration, feel free to reach out.
               </p>
               <div className="space-y-4 text-sm text-slate-200">
                 <div className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4">
