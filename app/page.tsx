@@ -214,7 +214,7 @@ export default function Portfolio() {
           from_name: formData.name,
           reply_to: formData.email,
           message: formData.message,
-          to_email: "sakshamvkhare@gmail.com",
+          to_email: "sakshamkhare.06@gmail.com",
         },
         { publicKey }
       );
@@ -332,7 +332,7 @@ ideas, and occasionally working with clients.
                 About
               </h2>
               <p className="text-sm text-slate-300 sm:text-base">
-                I am a computer science student who enjoys building software
+                I am a computer science graduate who enjoys building software
 projects. I like working on ideas from scratch and learning
 new technologies while doing it.
               </p>
@@ -505,7 +505,7 @@ small freelance work.
                     Work Email
                   </p>
                   <p className="mt-2 text-lg text-white">
-                    sakshamvkhare@gmail.com
+                    sakshamkhare.06@gmail.com
                   </p>
                 </div>
               </div>
